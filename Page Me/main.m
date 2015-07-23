@@ -10,8 +10,11 @@
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {
+    
     @autoreleasepool {
-        NSLog(@"Hello, World!");
+        for (int i = 6; i < 10; i++) {
+            NSLog(@"i is %i, which is less than 10", i);
+        }
     }
     return 0;
 }
